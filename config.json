@@ -1,0 +1,14 @@
+{
+  "teamleader": {
+    "group": "",
+    "apiSecret": "",
+    "currency": "€"
+  },
+  "slack": {
+    "incomingWebhook": "",
+    "channel": "#teamleader",
+    "username": "Teamleader",
+    "iconEmoji": "https://i.vimeocdn.com/portrait/10310097_640x640"
+  },
+  "defaultInterval": 180000
+}

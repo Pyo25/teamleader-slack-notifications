@@ -1,0 +1,23 @@
+{
+  "name": "teamleader-slack-notification",
+  "version": "0.1.0",
+  "description": "Notify Teamleader changes to Slack using a Node.js script",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pierre-Yves Orban",
+  "license": "MIT",
+  "dependencies": {
+    "console-stamp": "^0.2.5",
+    "he": "^1.1.1",
+    "slack-node": "^0.1.8",
+    "teamleader": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0"
+  }
+}
