@@ -85,7 +85,7 @@ class DealPhaseWatcher extends Watcher {
     return this.getDeal(change.deal_id)
       .then((deal) => {
         const title = he.decode(deal.title);
-        const userName = he.decode(this.users[change.related_user_id].name);
+        const userName = change.related_user_id ? he.decode(this.users[change.related_user_id].name) : "unknown";          
         const toPhase = he.decode(this.dealPhases[change.new_phase_id].name);
         if (!change.old_phase_id) { return `New deal *${title}* in phase ${toPhase} (by ${userName})`; }
 
