@@ -4,7 +4,7 @@
   "description": "Notify Teamleader changes to Slack using a Node.js script",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Pyo25/teamleader-slack-notifications.git"  
+    "url": "git@github.com:Pyo25/teamleader-slack-notifications.git"
   },
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
   "dependencies": {
     "console-stamp": "^0.2.5",
     "he": "^1.1.1",
+    "promise-sequence": "^0.2.3",
     "slack-node": "^0.1.8",
     "teamleader": "^1.0.0"
   },
